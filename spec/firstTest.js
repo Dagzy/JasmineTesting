@@ -12,3 +12,14 @@ describe("First test", function(){
     })
 //Expected output: Failure
 })
+
+describe("Second test", function(){
+    it('is my first test driven function', function(){
+        expect(firstTest.testDriven(true, false)).toBe(false);
+    })
+//Expected output: Pass as a result of condition being met after first argument is flipped
+    it('checks the type of the returned value', function(){
+        expect(typeof firstTest.checkType(2)).toBe('string')
+//Expected output: Failure as a result of type not evaluating correctly
+    })
+})
