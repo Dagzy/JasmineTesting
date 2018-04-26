@@ -1,0 +1,24 @@
+{
+  "name": "jasminetesting",
+  "version": "1.0.0",
+  "description": "Intro To Jasmine",
+  "main": "JasmineTesting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagzy/JasmineTesting.git"
+  },
+  "keywords": [
+    "Jasmine",
+    "Testing",
+    "JavaScript"
+  ],
+  "author": "Quincy Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dagzy/JasmineTesting/issues"
+  },
+  "homepage": "https://github.com/Dagzy/JasmineTesting#readme"
+}
