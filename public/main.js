@@ -1,3 +1,4 @@
-var subheading = document.createElement('h2')
-subheading.innerHTML = "The script is linked and being provided."
-document.body.appendChild(subheading)
+var theOuput = document.getElementById("theOutput")
+function testResponse(e){
+    fetch('http://localhost:3000/test').then(data => data.json()).then(data => theOuput.placeholder = data)
+}
